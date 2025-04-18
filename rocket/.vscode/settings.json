@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "internet": "cpp",
+        "functional": "cpp"
+    }
+}

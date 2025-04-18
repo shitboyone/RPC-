@@ -60,6 +60,9 @@
         "io_context": "cpp",
         "netfwd": "cpp",
         "socket": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "timer": "cpp"
     }
 }

@@ -10,8 +10,12 @@ namespace rocket{
         public:
         Config(const char *xmlfile);
 
-        private:
-        std::map<std::string,std::string>m_config_values;
+        static Config* GetGlobalConfig();
+
+        static void SetGlobalConfig(const char *xmlfile);
+
+        public:
+        std::string m_log_level;
 
     };
 
